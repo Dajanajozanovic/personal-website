@@ -6,21 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="styles.css"/>
+    <style>
+        table, td {
+            border: 1px solid;
+
+        }
+    </style>
 </head>
 <body>
-     <header> 
+     <header class= "page-header"> 
          <h1>My Personal Website</h1>
          <h2>Ich heiße Dajana Jozanovic</h2>
-        </header>
+         </header> 
+       <main class="page-main">
          <nav>
-             <a href="#contact">Contact</a>
+             <a class= "button" href="#contact">Contact</a>
              <a href="#bio">Biography</a>
          </nav>
          <section>
 
-         <img
-         src='images/IMG_2470.JPG'
-         alt=''/>
+         <img class= "image-fluid" src='images/IMG_2470.JPG' alt=''/> 
+         <img class= "mimi" src="images/IMG_2001.jpg"/>
+         
+         
          <p>Das sind mein Hund Mimi und ich an der Elbe (Övelgönne). 
             Hier verbringen wir unsere Freizeit am liebsten. 
             Wir sind ziemlich häufig dort, bei Sonne, Wind und Regen.</p>
@@ -47,23 +55,46 @@
 
         <section id="contact">
         <h3>Contact</h3>
-            <a href="Tel.:+49 17 62 49 92 59">Telephone</a> <br>
-            E-Mail: dajana.jozanovic@t-online.de <br>
-            Codepen: https://codepen.io/Dajanajzv <br>
-            github:https://github.com/Dajanajozanovic <br>
+            <a href="Tel.:+49 17 62 49 92 59">Tel.: +49 17 62 49 92 59</a> <br>
+            <a href="E-Mail: dajana.jozanovic@t-online.de">Mailto: dajana.jozanovic@t-online.de</a> <br>
+            <img class="social-media">
+            <a href="https://codepen.io/Dajanajzv"><img src="images/Codepen.png" alt=""> </a> <br>
+            <a href="https://github.com/Dajanajozanovic"><img src="images/Github.png" alt=""></a> <br>
+        </img>
+            
         </section>
         
 
      <section id="bio">
-     <h3>Biography</h3>
+     <h2>Biography</h2>
      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
      Saepe illum aliquam, odio placeat labore tempora itaque? <br>
      Saepe omnis sapiente, ut natus culpa obcaecati aliquam eligendi numquam, quidem, modi provident. 
      Quibusdam.</p> 
     </section>
+
+    <div class="mein-cv">
+        <h2>Mein CV</h2>
+
+        <dl>
+            <dt> 2013</dt>
+            <dd>Bachelor of Arts in Business Management Hochschule Mittweida</dd>
+
+            <dt>lfd. seit Oktober 2019</dt>
+            <dd>Master of Science in Wirtschaftswissenschaften Fernuviersität Hagen</dd>
+
+            <dt> bis Februar 2021</dt>
+            <dd>Project Assistant im zentralen QM bei Lufthansa Technik AG in Hamburg</dd>
+
+            <dt>Ab April 2021</dt>
+            <dd>Bootcamp gestartet als Webdeveloper bei Neuefische</dd>
+
+        </dl>
+
+    </div>
     
     <footer><small>Dajanajozanovic Tel. Mail</small></footer>
-
+</main>
     
           
 </body>

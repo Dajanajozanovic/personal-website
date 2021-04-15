@@ -1,3 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: pink;
+    --black: #333;
+    --secondary: papayawhip;
+}
+
 body {
-    background-color: hotpink;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-size: 112,5%;
+    line-height: 1.4;
+    color: var(--black);
+    background-color:pink;
+    
+
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 2px solid;
+}
+
+input, 
+button,
+textarea {
+    font-size: inherit;
+}
+
+.page-header {
+    padding: 20px;
+    background: var(--secondary);
+    margin-bottom: 40px
+
+}
+
+.button {
+    background: var(--black);
+    color: white;
+    border-bottom: none;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.image-fluid {
+    width: 30%;
+    height: auto;
+}
+
+.page-main{
+    display: grid;
+    grid-gap: 40px;
+    place-items: center;
+
+}
+
+.mein-cv{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+dt {
+    font-weight: bold;
 }
