@@ -7,66 +7,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Personal Website</title>
     <link rel="stylesheet" href="styles.css"/>
-    <style>
-        table, td {
-            border: 1px solid;
 
-        }
-    </style>
+
 </head>
+
 <body>
-     <header class= "page-header"> 
-         <h1 id="start">My Personal Website</h1>
-         <h2>Ich heiße Dajana Jozanovic</h2>
-         </header> 
-       <main class="page-main">
-         <nav>
-             <a class= "button" href="#contact">Contact</a>
-             <a class= "button" href="#bio">Biography</a>
-         </nav>
-         <section class="bild-mit-p">
+     <header class="page-header"> 
+         <h1 id="start" class="header-children">My Personal Website</h1>
+         <h2 class="header-children">Ich heiße Dajana Jozanovic</h2>
+    </header> 
 
-         <div class="flex-image image"> 
-         <img src="images/IMG_2470.JPG" width="315" height="549"alt=""/> 
-        </div>
+    <main class="page-main">
+    <nav class="nav-bar">
+        <a class= "button" href="#contact">Contact</a>
+        <a class= "button" href="#bio">Biography</a>
+    </nav>
+    
+    <section class="bild-mit-p">
+
+    <div class="flex-image"> 
+        <img class="picture" src="images/IMG_2470.JPG" alt="me and my dog"/> 
+    </div>
          
-         <div class="container">
-             <p>Das sind mein Hund Mimi und ich an der Elbe (Övelgönne).
-                Hier verbringen wir unsere Freizeit am liebsten.
-                Wir sind ziemlich häufig dort, bei Sonne, Wind und Regen.
-             </p>
-         </div>
-        </section>
+    <div class="container">
+        <p> Das sind mein Hund Mimi und ich an der Elbe (Övelgönne).
+            Hier verbringen wir unsere Freizeit am liebsten.
+            Wir sind ziemlich häufig dort, bei Sonne, Wind und Regen.
+        </p>
+    </div>
+    
+</section>
 
-        <section>
-            <h2> In diesem Abschnitt erzähle ich Euch etwas über meine persönlichen Interessen und Fähigkeiten</h2>
+<section>
+    <h2> In diesem Abschnitt erzähle ich Euch etwas über meine persönlichen Interessen und Fähigkeiten</h2>
            
-            <h3>Meine Interessen</h3>
-            <ul>
-                <li>Tiere</li>
-                <li>Wandern/ Natur</li>
-                <li>Kulturen kennen lernen</li>
-                <li>Kochen Internationale Küche</li>
-            </ul>
-            <h3>Meine Fähigkeiten</h3>
-            <ul>
-                <li>Microsoft Office Paket, O365</li>
-                <li>Macintosh OS.X</li>
-                <li>SAP</li>
-                <li>JIRA</li>
-            </ul>
+        <h3>Meine Interessen</h3>
+            
+        <ul>
+            <li>Tiere</li>
+            <li>Wandern/ Natur</li>
+            <li>Kulturen kennen lernen</li>
+            <li>Kochen Internationale Küche</li>
+        </ul>
+        
+        <h3>Meine Fähigkeiten</h3>
+        <ul>
+            <li>Microsoft Office Paket, O365</li>
+            <li>Macintosh OS.X</li>
+            <li>SAP</li>
+            <li>JIRA</li>
+        </ul>
     </section>
 
-        <section id="contact">
-        <h3>Contact</h3>
+    <section class="contact" id="contact">
+        
+        <h2>Contact</h2>
             <a href="Tel.:+49 17 62 49 92 59">Tel.: +49 17 62 49 92 59</a> <br>
             <a href="E-Mail: dajana.jozanovic@t-online.de">Mailto: dajana.jozanovic@t-online.de</a> <br>
-            <img class="social-media">
-            <a href="https://codepen.io/Dajanajzv"><img src="images/codepen.png" alt=""> </a> <br>
-            <a href="https://github.com/Dajanajozanovic"><img src="images/github.png" alt=""></a> <br>
-        </img>
+ 
+        
+        <div class="social-media">
+            <a href="https://codepen.io/Dajanajzv"><img class="icons" src="images/codepen.png" alt=""/></a> 
+            <a href="https://github.com/Dajanajozanovic"><img class="icons" src="images/github.png" alt=""/></a> <br>
+        </div>
+    
+    </section>
             
-        </section>
+        
         
      <section id="bio">
      <h2>Biography</h2>
@@ -96,7 +103,7 @@
 
     </div>
     
-    <footer> 
+    <footer class="footer"> 
         <a href="#start" class="button">zurück zum Start</a>
     </footer>
 </main>
