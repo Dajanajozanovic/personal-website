@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    border: 1px solid red;
 }
 
 :root {
@@ -11,28 +10,25 @@
 
 body {
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 112,5%;
     line-height: 1.4;
     color: var(--primary);
-    background-color:whitesmoke;
+    background-color: rosybrown;
     line-height: 1.4;
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
     display: grid;
     grid-template-rows: [header] 80px [main] auto [footer] 80px;
-grid-template-columns: [width] 80vw;
+    grid-template-columns: [width] 80vw;
 
-}
-
-.nav-bar {
-    margin: 10px;
 }
 
 a {
     text-decoration: none;
-    border-bottom: 2px dotted;
+    border-bottom: 1px solid;
 }
 
 input, 
@@ -41,20 +37,7 @@ textarea {
     font-size: inherit;
 }
 
-.page-header {
-  
-grid-row: header;
-grid-column: width;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-content: center;
-}
 
-.header-children {
-    width: 100%;
-    margin: 0;
-}
 
 .button {
     background: var(--black);
@@ -64,11 +47,46 @@ align-content: center;
     border-radius: 4px;
 }
 
+
+/*Header*/
+
+.page-header {
+
+    grid-row: header;
+    grid-column: width;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.header-children {
+    width: 100%;
+    margin: 0;
+}
+
+.nav-bar {
+    margin: 10px;
+}
+
+.bild-mit-p{
+
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+
+   
+}
+
 .image-fluid {
     width: 30%;
     height: auto;
     align-items: center;
 }
+
+/*Main*/
 
 .page-main {
     grid-row: main;
@@ -92,29 +110,18 @@ dt {
     justify-content: center;
     align-items: center;
     width: 100%;
-
 }
 
 .picture {
-    width: 40vw;
-
+  width: 40vw;
 }
-
 
 .container{
     width: 100%;
     padding: 20px;
     background: none;
     margin-bottom: 40px
-}
-
-.bild-mit-p{
-    padding: 20px;
-width: 100%;
-    margin-bottom: 40px;
-display: flex;
-flex-direction: column;
-}
+    }
 
 .contact {
     display: flex;
@@ -123,18 +130,20 @@ flex-direction: column;
 }
 
 .social-media{
-display: flex;
-width: 80vw;
-justify-content: center;
+    display: flex;
+    width: 80vw;
+    justify-content: center;
 }
 
 .icons {
-width: 30vw;
+    idth: 30vw;
 }
 
 
+/*Footer*/
+
 .footer {
     grid-row: footer;
-grid-column: width;
+    grid-column: width;
 }
 
