@@ -1,41 +1,7 @@
-*{
-    box-sizing: border-box;
-}
-
-:root {
-    --primary: black;
-    --black: #333;
-    --secondary: papayawhip;
-}
-
-body {
-    margin: 0;
-    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 112,5%;
-    line-height: 1.4;
-    color: var(--primary);
-    background-color: rosybrown;
-    line-height: 1.4;
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
-    display: grid;
-    grid-template-rows: [header] 80px [main] auto [footer] 80px;
-    grid-template-columns: [width] 80vw;
-
-}
-
-a {
-    text-decoration: none;
-    border-bottom: 1px solid;
-}
-
-input, 
-button,
-textarea {
-    font-size: inherit;
-}
+@import './styles/_base.css';
+@import './styles/_variables.css';
+@import './styles/_utility.css';
+@import './styles/components/header.css';
 
 
 
@@ -101,9 +67,6 @@ textarea {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-dt {
-    font-weight: bold;
-}
 
 
 .flex-image{
@@ -145,5 +108,14 @@ dt {
 .footer {
     grid-row: footer;
     grid-column: width;
+    
 }
 
+.button-styling {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.list-1 {
+    font-weight: bold;
+}

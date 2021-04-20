@@ -1,16 +1,15 @@
-
+*{
     box-sizing: border-box;
 }
 
-:root {
-    --primary: black;
-    --black: #333;
-    --secondary: papayawhip;
+input, 
+button,
+textarea {
+    font-size: inherit;
 }
 
 body {
     margin: 0;
-    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 112,5%;
     line-height: 1.4;
@@ -25,3 +24,8 @@ body {
     grid-template-columns: [width] 80vw;
 
 }
+
+
+
+
+
