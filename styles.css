@@ -1,6 +1,6 @@
-*{
+* {
     box-sizing: border-box;
-}
+  }
 
 :root {
     --primary: black;
@@ -22,7 +22,7 @@ body {
     text-align: center;
     display: grid;
     grid-template-rows: [header] 80px [main] auto [footer] 80px;
-    grid-template-columns: [width] 80vw;
+grid-template-columns: [width] 80vw;
 
 }
 

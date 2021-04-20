@@ -1,0 +1,24 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "npx htmlhint '**/*.html' && npx stylelint '**/*.css' && echo 'test-complete' "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dajanajozanovic/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dajanajozanovic/personal-website/issues"
+  },
+  "homepage": "https://github.com/Dajanajozanovic/personal-website#readme",
+  "devDependencies": {
+    "htmlhint": "^0.14.2",
+    "live-server": "1.2.1"
+  }
+}

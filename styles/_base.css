@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+input, 
+button,
+textarea {
+    font-size: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 112,5%;
+    line-height: 1.4;
+    color: var(--primary);
+    background-color: rosybrown;
+    line-height: 1.4;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    display: grid;
+    grid-template-rows: [header] 80px [main] auto [footer] 80px;
+    grid-template-columns: [width] 80vw;
+
+}
+
+
+
+
+
