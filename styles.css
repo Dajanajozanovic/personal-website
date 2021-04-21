@@ -58,6 +58,7 @@ textarea {
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    background-color: green;
 }
 
 .header-children {
